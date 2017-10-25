@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		749EA7251FA0EDA200A75D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749EA7241FA0EDA200A75D4C /* AppDelegate.swift */; };
+		749EA7271FA0EDA200A75D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749EA7261FA0EDA200A75D4C /* ViewController.swift */; };
+		749EA72A1FA0EDA200A75D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EA7281FA0EDA200A75D4C /* Main.storyboard */; };
+		749EA72C1FA0EDA200A75D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749EA72B1FA0EDA200A75D4C /* Assets.xcassets */; };
+		749EA72F1FA0EDA200A75D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749EA72D1FA0EDA200A75D4C /* LaunchScreen.storyboard */; };
+		749EA73A1FA0EDA200A75D4C /* CoinMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749EA7391FA0EDA200A75D4C /* CoinMapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		749EA7361FA0EDA200A75D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 749EA7191FA0EDA200A75D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749EA7201FA0EDA200A75D4C;
+			remoteInfo = CoinMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		749EA7211FA0EDA200A75D4C /* CoinMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749EA7241FA0EDA200A75D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		749EA7261FA0EDA200A75D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		749EA7291FA0EDA200A75D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		749EA72B1FA0EDA200A75D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749EA72E1FA0EDA200A75D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		749EA7301FA0EDA200A75D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749EA7351FA0EDA200A75D4C /* CoinMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		749EA7391FA0EDA200A75D4C /* CoinMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMapTests.swift; sourceTree = "<group>"; };
+		749EA73B1FA0EDA200A75D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		749EA71E1FA0EDA200A75D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA7321FA0EDA200A75D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749EA7181FA0EDA200A75D4C = {
+			isa = PBXGroup;
+			children = (
+				749EA7231FA0EDA200A75D4C /* CoinMap */,
+				749EA7381FA0EDA200A75D4C /* CoinMapTests */,
+				749EA7221FA0EDA200A75D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		749EA7221FA0EDA200A75D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749EA7211FA0EDA200A75D4C /* CoinMap.app */,
+				749EA7351FA0EDA200A75D4C /* CoinMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749EA7231FA0EDA200A75D4C /* CoinMap */ = {
+			isa = PBXGroup;
+			children = (
+				749EA7241FA0EDA200A75D4C /* AppDelegate.swift */,
+				749EA7261FA0EDA200A75D4C /* ViewController.swift */,
+				749EA7281FA0EDA200A75D4C /* Main.storyboard */,
+				749EA72B1FA0EDA200A75D4C /* Assets.xcassets */,
+				749EA72D1FA0EDA200A75D4C /* LaunchScreen.storyboard */,
+				749EA7301FA0EDA200A75D4C /* Info.plist */,
+			);
+			path = CoinMap;
+			sourceTree = "<group>";
+		};
+		749EA7381FA0EDA200A75D4C /* CoinMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				749EA7391FA0EDA200A75D4C /* CoinMapTests.swift */,
+				749EA73B1FA0EDA200A75D4C /* Info.plist */,
+			);
+			path = CoinMapTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		749EA7201FA0EDA200A75D4C /* CoinMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749EA73E1FA0EDA200A75D4C /* Build configuration list for PBXNativeTarget "CoinMap" */;
+			buildPhases = (
+				749EA71D1FA0EDA200A75D4C /* Sources */,
+				749EA71E1FA0EDA200A75D4C /* Frameworks */,
+				749EA71F1FA0EDA200A75D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinMap;
+			productName = CoinMap;
+			productReference = 749EA7211FA0EDA200A75D4C /* CoinMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		749EA7341FA0EDA200A75D4C /* CoinMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749EA7411FA0EDA200A75D4C /* Build configuration list for PBXNativeTarget "CoinMapTests" */;
+			buildPhases = (
+				749EA7311FA0EDA200A75D4C /* Sources */,
+				749EA7321FA0EDA200A75D4C /* Frameworks */,
+				749EA7331FA0EDA200A75D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749EA7371FA0EDA200A75D4C /* PBXTargetDependency */,
+			);
+			name = CoinMapTests;
+			productName = CoinMapTests;
+			productReference = 749EA7351FA0EDA200A75D4C /* CoinMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		749EA7191FA0EDA200A75D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Mikhail;
+				TargetAttributes = {
+					749EA7201FA0EDA200A75D4C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					749EA7341FA0EDA200A75D4C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 749EA7201FA0EDA200A75D4C;
+					};
+				};
+			};
+			buildConfigurationList = 749EA71C1FA0EDA200A75D4C /* Build configuration list for PBXProject "CoinMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 749EA7181FA0EDA200A75D4C;
+			productRefGroup = 749EA7221FA0EDA200A75D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749EA7201FA0EDA200A75D4C /* CoinMap */,
+				749EA7341FA0EDA200A75D4C /* CoinMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749EA71F1FA0EDA200A75D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA72F1FA0EDA200A75D4C /* LaunchScreen.storyboard in Resources */,
+				749EA72C1FA0EDA200A75D4C /* Assets.xcassets in Resources */,
+				749EA72A1FA0EDA200A75D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA7331FA0EDA200A75D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		749EA71D1FA0EDA200A75D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA7271FA0EDA200A75D4C /* ViewController.swift in Sources */,
+				749EA7251FA0EDA200A75D4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749EA7311FA0EDA200A75D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749EA73A1FA0EDA200A75D4C /* CoinMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749EA7371FA0EDA200A75D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749EA7201FA0EDA200A75D4C /* CoinMap */;
+			targetProxy = 749EA7361FA0EDA200A75D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		749EA7281FA0EDA200A75D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA7291FA0EDA200A75D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		749EA72D1FA0EDA200A75D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749EA72E1FA0EDA200A75D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		749EA73C1FA0EDA200A75D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		749EA73D1FA0EDA200A75D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		749EA73F1FA0EDA200A75D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoinMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		749EA7401FA0EDA200A75D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoinMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		749EA7421FA0EDA200A75D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoinMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinMap.app/CoinMap";
+			};
+			name = Debug;
+		};
+		749EA7431FA0EDA200A75D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoinMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinMap.app/CoinMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		749EA71C1FA0EDA200A75D4C /* Build configuration list for PBXProject "CoinMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA73C1FA0EDA200A75D4C /* Debug */,
+				749EA73D1FA0EDA200A75D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749EA73E1FA0EDA200A75D4C /* Build configuration list for PBXNativeTarget "CoinMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA73F1FA0EDA200A75D4C /* Debug */,
+				749EA7401FA0EDA200A75D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749EA7411FA0EDA200A75D4C /* Build configuration list for PBXNativeTarget "CoinMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749EA7421FA0EDA200A75D4C /* Debug */,
+				749EA7431FA0EDA200A75D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 749EA7191FA0EDA200A75D4C /* Project object */;
+}
