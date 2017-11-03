@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52371E4C1FAD0E16006C6910 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52371E4B1FAD0E16006C6910 /* TestData.swift */; };
 		527DAC551FA4BB1600B69DE7 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC531FA4BB1600B69DE7 /* Map.storyboard */; };
 		527DAC5A1FA4BB3B00B69DE7 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC581FA4BB3B00B69DE7 /* Favorites.storyboard */; };
 		527DAC5D1FA4BBDD00B69DE7 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC5B1FA4BBDC00B69DE7 /* Category.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52371E4B1FAD0E16006C6910 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		527DAC541FA4BB1600B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Map.storyboard; sourceTree = "<group>"; };
 		527DAC591FA4BB3B00B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
 		527DAC5C1FA4BBDC00B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Category.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52371E4A1FAD0E02006C6910 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				52371E4B1FAD0E16006C6910 /* TestData.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		52F342BD1FAC9B9D0084DF53 /* controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 		749EA7231FA0EDA200A75D4C /* CoinMap */ = {
 			isa = PBXGroup;
 			children = (
+				52371E4A1FAD0E02006C6910 /* utils */,
 				52F342C11FAC9CF90084DF53 /* model */,
 				52F342C01FAC9BEE0084DF53 /* view */,
 				52F342BD1FAC9B9D0084DF53 /* controller */,
@@ -247,6 +258,7 @@
 				749EA7271FA0EDA200A75D4C /* ViewController.swift in Sources */,
 				52F342BF1FAC9BD80084DF53 /* FavoriteTableViewController.swift in Sources */,
 				52F342BC1FAC8E940084DF53 /* FavoriteTableViewCell.swift in Sources */,
+				52371E4C1FAD0E16006C6910 /* TestData.swift in Sources */,
 				749EA7251FA0EDA200A75D4C /* AppDelegate.swift in Sources */,
 				52F342C31FAC9D3B0084DF53 /* Place.swift in Sources */,
 			);
