@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vUD-8I-qU4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hC1-q0-uzJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Favorite Table View Controller-->
+        <!--Favorites-->
         <scene sceneID="flh-da-bOj">
             <objects>
                 <tableViewController id="vUD-8I-qU4" customClass="FavoriteTableViewController" customModule="CoinMap" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,50 +68,32 @@
                             <outlet property="delegate" destination="vUD-8I-qU4" id="34R-zx-Dkf"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Favorites" id="AzW-7P-D9X"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45f-5Y-QVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1354.4000000000001" y="794.75262368815595"/>
+            <point key="canvasLocation" x="-1364" y="745"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Hqd-nM-NdF">
+        <!--Navigation Controller-->
+        <scene sceneID="AJ1-Ga-J2M">
             <objects>
-                <viewController id="YUX-7v-dOh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P54-YE-SbT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Здесь будут понравившиеся места, пока в разработке..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tU9-Sj-HWG">
-                                <rect key="frame" x="16" y="304" width="343" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Jav-e3-LE2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AnC-9L-Tnf">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Favorites" id="lKU-ip-B6C"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="tU9-Sj-HWG" firstAttribute="centerY" secondItem="P54-YE-SbT" secondAttribute="centerY" id="AWX-ue-N6W"/>
-                            <constraint firstItem="tU9-Sj-HWG" firstAttribute="centerX" secondItem="P54-YE-SbT" secondAttribute="centerX" id="NUd-BV-f0M"/>
-                            <constraint firstItem="tU9-Sj-HWG" firstAttribute="leading" secondItem="P54-YE-SbT" secondAttribute="leading" constant="16" id="fAc-h3-uo1"/>
-                            <constraint firstAttribute="trailing" secondItem="tU9-Sj-HWG" secondAttribute="trailing" constant="16" id="xW1-kP-cKi"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="5fr-6F-cjN"/>
-                    </view>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hC1-q0-uzJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="UIh-J7-EI8"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A5v-pa-XAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s4P-mw-zQH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vUD-8I-qU4" kind="relationship" relationship="rootViewController" id="CKi-8X-aji"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQM-1E-Ocu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-527" y="795"/>
+            <point key="canvasLocation" x="-2191" y="746"/>
         </scene>
     </scenes>
 </document>

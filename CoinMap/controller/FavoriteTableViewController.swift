@@ -96,12 +96,9 @@ class FavoriteTableViewController: UITableViewController {
     */
     
     private func loadTestFavorites() {
-        // create test objects
-        let favorite1 = Place(placeName: "Place 1", categoryName: "Shop", description: "Some info here");
-        let favorite2 = Place(placeName: "Place 2", categoryName: "Products", description: "Some info here");
-        let favorite3 = Place(placeName: "Place 3", categoryName: "Cinema", description: "Some info here");
-        
-        // add objects to collection
-        favorites += [favorite1, favorite2, favorite3]
+        for _ in 1...10 {
+            let favorite : Place = TestData.createRandomPlace()
+            favorites.append(favorite)
+        }
     }
 }
