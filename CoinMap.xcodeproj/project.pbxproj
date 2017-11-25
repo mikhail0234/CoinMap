@@ -15,6 +15,7 @@
 		527DAC551FA4BB1600B69DE7 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC531FA4BB1600B69DE7 /* Map.storyboard */; };
 		527DAC5A1FA4BB3B00B69DE7 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC581FA4BB3B00B69DE7 /* Favorites.storyboard */; };
 		527DAC5D1FA4BBDD00B69DE7 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DAC5B1FA4BBDC00B69DE7 /* Category.storyboard */; };
+		52CC711C1FC8F2F800622428 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC711B1FC8F2F800622428 /* MapViewController.swift */; };
 		52F342BC1FAC8E940084DF53 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F342BB1FAC8E940084DF53 /* FavoriteTableViewCell.swift */; };
 		52F342BF1FAC9BD80084DF53 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F342BE1FAC9BD80084DF53 /* FavoriteTableViewController.swift */; };
 		52F342C31FAC9D3B0084DF53 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F342C21FAC9D3B0084DF53 /* Place.swift */; };
@@ -44,6 +45,7 @@
 		527DAC541FA4BB1600B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Map.storyboard; sourceTree = "<group>"; };
 		527DAC591FA4BB3B00B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
 		527DAC5C1FA4BBDC00B69DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CoinMap/Base.lproj/Category.storyboard; sourceTree = "<group>"; };
+		52CC711B1FC8F2F800622428 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		52F342BB1FAC8E940084DF53 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		52F342BE1FAC9BD80084DF53 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		52F342C21FAC9D3B0084DF53 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				52F342BE1FAC9BD80084DF53 /* FavoriteTableViewController.swift */,
 				5204FCE61FBBB6C000A3F70F /* CategoryCollectionViewController.swift */,
+				52CC711B1FC8F2F800622428 /* MapViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				749EA7271FA0EDA200A75D4C /* ViewController.swift in Sources */,
 				52F342BF1FAC9BD80084DF53 /* FavoriteTableViewController.swift in Sources */,
 				52F342BC1FAC8E940084DF53 /* FavoriteTableViewCell.swift in Sources */,
+				52CC711C1FC8F2F800622428 /* MapViewController.swift in Sources */,
 				52371E4C1FAD0E16006C6910 /* TestData.swift in Sources */,
 				5204FCEB1FBBBCE600A3F70F /* CategoryCollectionViewCell.swift in Sources */,
 				749EA7251FA0EDA200A75D4C /* AppDelegate.swift in Sources */,
